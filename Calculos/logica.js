@@ -13,5 +13,22 @@ function sub(){
     var resposta = document.getElementById("respSub")
 
     resposta.textContent = numero1 - numero2
+}
 
+function multi(){
+    var numero1  = parseFloat(document.getElementById("m1").value)
+    var numero2  = parseFloat(document.getElementById("m2").value)
+    document.getElementById("respMulti").textContent = numero1 * numero2
+}
+
+function Divi(){
+    var numero1 = parseFloat(document.getElementById("d1").value)
+    var numero2  = parseFloat(document.getElementById("d2").value)
+    var resp = document.getElementById("respDivi")
+
+    if(numero2 !== 0){
+        resp.innerHTML = (numero1 / numero2).toFixed(2)
+    }else{
+        resp.innerHTML = "Não se divide por 0"
+    }
 }
