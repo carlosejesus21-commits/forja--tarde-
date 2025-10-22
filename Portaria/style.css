@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.t1{
+    color: rgb(0, 0, 12);
+}
+
+.t2{
+    color: rgb(0, 0, 0);
+}
+
+#v1{
+    display: none;
+}
+
+#v2{
+    display: none;
+}
